@@ -43,7 +43,6 @@ COMMIT;
 DROP TABLE IF EXISTS car_categories;
 CREATE TABLE IF NOT EXISTS car_categories(id INTEGER PRIMARY KEY NOT NULL, 
 										  class VARCHAR(30));
-										  
 BEGIN;
 INSERT INTO car_categories(class) VALUES
 ('A-класс'),
@@ -221,4 +220,14 @@ CREATE TABLE IF NOT EXISTS work_schedule(workbook_id INTEGER NOT NULL,
 ('08:00', '16:00', 5, 'Ср'),
 ('10:00', '18:00', 5, 'Чт'),
 ('10:00', '18:00', 5, 'Пт');
+<<<<<<< HEAD
 COMMIT;
+=======
+<<<<<<< HEAD
+COMMIT;
+
+						   
+=======
+COMMIT;
+>>>>>>> 87b62b0a5d3674594640164dc81f51fa2cb52312
+>>>>>>> student/Task07
